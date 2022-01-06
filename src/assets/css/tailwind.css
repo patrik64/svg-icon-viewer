@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition-slow {
+  transition-duration: .5s;
+}
+
+.transition-slower {
+  transition-duration: .75s;
+}
+
+.transition-norm {
+  transition-duration: .25s;
+}
+
+.transition-fast {
+  transition-duration: .15s;
+}
+
+.transition-faster {
+  transition-duration: .075s;
+}
+
+.transition-fastest {
+  transition-duration: .025s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700,800,900&display=swap');
